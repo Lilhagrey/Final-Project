@@ -1580,7 +1580,9 @@ footer .row {
       margin-bottom: 80px;
   }
   .footer__columns {
+      max-width: 600px;
       justify-content: center;
+      flex-wrap: wrap;
   }
   .footer__column {
       width: auto;
