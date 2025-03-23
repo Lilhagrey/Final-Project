@@ -254,6 +254,11 @@ nav {
   margin: 8px 0;
   padding-bottom: 4px;
   border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.modal__link:hover {
+  border-bottom: 2px solid black;
 }
 
 .modal__link--primary {
@@ -262,6 +267,11 @@ nav {
   background: #6415ff;
   border-radius: 500px;
   border: none;
+  transition: all 300ms ease;
+}
+
+.modal__link--primary:hover {
+  background-color: rgba(80,17,204)
 }
 
 .menu--open .modal {
@@ -275,6 +285,7 @@ nav {
   top: 24px;
   right: 18px;
 }
+
 
 /*
 
