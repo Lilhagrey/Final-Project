@@ -1440,6 +1440,9 @@ footer .row {
   #pricing .row {
       margin-top: 40px;
   }
+  #testimonials .section__tag {
+    margin-top: 32px;
+  }
   .testimonials__description {
       padding-left: 0;
   }
@@ -1533,6 +1536,9 @@ footer .row {
   }
   .plan__bottom {
       padding: 32px 48px;
+  }
+  #testimonials .section__tag {
+    margin-top: 32px;
   }
   .testimonial__para {
       margin-bottom: 32px;
